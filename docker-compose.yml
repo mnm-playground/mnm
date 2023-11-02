@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  macko-nuxt:
+    container_name: macko-nuxt
+    build:
+      context: ./mnm-macko
+      dockerfile: Dockerfile
+
+    ports:
+      - '3000:3000'
+
+  backend-spring:
+    build:
+      context: ./mnm-server
+      dockerfile: Dockerfile
+    container_name: mnm-backend-spring
+    image: mnm-backend-spring:latest
+
+    ports:
+      - '8080:8080'
+
+
