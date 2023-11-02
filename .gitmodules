@@ -1,0 +1,3 @@
+[submodule "mnm-server"]
+	path = mnm-server
+	url = https://github.com/mnm-playground/mnm-server.git
