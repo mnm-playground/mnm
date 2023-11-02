@@ -1,3 +1,6 @@
 [submodule "mnm-server"]
 	path = mnm-server
 	url = https://github.com/mnm-playground/mnm-server.git
+[submodule "mnm-macko"]
+	path = mnm-macko
+	url = https://github.com/mnm-playground/mnm-macko.git
