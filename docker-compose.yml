@@ -2,7 +2,7 @@ version: '3'
 
 services:
   macko-nuxt:
-    container_name: macko-nuxt
+    #container_name: macko-nuxt
     build:
       context: ./mnm-macko
       dockerfile: Dockerfile
@@ -14,10 +14,8 @@ services:
     build:
       context: ./mnm-server
       dockerfile: Dockerfile
-    container_name: mnm-backend-spring
-    image: mnm-backend-spring:latest
+        #    container_name: mnm-backend-spring
 
     ports:
       - '8080:8080'
-
 
